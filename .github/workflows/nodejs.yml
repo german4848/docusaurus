@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: CentOS
 
     strategy:
       matrix:
-        node-version: [14.15.0]
+        node-version: [12.x]
 
     steps:
       - name: Get latest code
