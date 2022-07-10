@@ -74,7 +74,17 @@ const config = {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          }
+          },
+          {
+            label: '小工具',
+            position: 'right',
+            items:[
+              {
+                label:"helloReact",
+                to:"/helloReact"
+              }
+            ]
+          },
         ],
       },
       footer: {
