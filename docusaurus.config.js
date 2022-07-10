@@ -80,8 +80,8 @@ const config = {
             position: 'right',
             items:[
               {
-                label:"helloReact",
-                to:"/helloReact"
+                label:"学习技术",
+                to:"/study"
               }
             ]
           },
