@@ -30,8 +30,8 @@ jobs:
           server: wh-nsebvenxffxyu90uaaa.my3w.com
           username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_pwd }}
-          local-dir: ./build/
-          server-dir: ./htdocs/
+          local-dir: ../build/
+          server-dir: /htdocs/
         env:
           CI: true
 
